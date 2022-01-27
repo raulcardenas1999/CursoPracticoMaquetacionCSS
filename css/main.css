@@ -59,3 +59,34 @@ nav .profile-link a {
     color: black;
     border-bottom: 1px solid black;
 }
+.main-container {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 140px);
+}
+.main-picture-back {
+    width: 100%;
+    position: absolute;
+}
+.main-title {
+    position: absolute;
+    width: 800px;
+    height: 40px;
+    text-align: center;
+    left: calc(50% - 400px);
+    top: calc(30%);
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.main-ingresar {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    left: calc(50% - 40px);
+    top: calc(60%);
+    background-color: #47cfac;
+    color: black;
+    font-weight: bold;
+    border: .5px solid white;
+}
