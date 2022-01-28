@@ -1,4 +1,5 @@
 body {
+    font-family: 'Roboto Mono', monospace;
     margin: 0;
     padding: 0;
     position: fixed; /*Con estas condiciones la pagina no debe moverse y toma toda la pantalla*/
@@ -80,6 +81,17 @@ nav .profile-link a {
     font-size: 30px;
     font-weight: 700px;
     letter-spacing: 10px; /*Espaciado entre letras*/
-    color: black;
+    color: white;
     text-align: center;
+}
+.home-main-button{
+    width: 110px;
+    height: 50px;
+    background-color: #47cfac;
+    display: grid;
+    align-items: center;
+}
+.home-main-button a{
+    font-weight: 700;
+    font-size: 18px;
 }
